@@ -20,18 +20,20 @@
 <main>
 <p><a href="pt-BR.html">Versão em português</a></p>
 <h1>Hex Dominion Privacy Policy</h1>
-<p>Last updated: 2026-10-22</p>
+<p>Last updated: 2026-10-24</p>
 
 <p>Hex Dominion (the "game", the "app") is a turn-based strategy game for Android published by <strong>Hiran Travassos</strong> ("we"), the controller of the data described here. For anything about privacy, contact <a href="mailto:hirantravassos@gmail.com">hirantravassos@gmail.com</a>.</p>
 <p>This policy follows the Brazilian General Data Protection Law (LGPD, Law 13,709/2018) and, for users in the European Economic Area and the United Kingdom, the GDPR.</p>
 
 <h2>1. Summary</h2>
 <ul>
-  <li>We do not ask for your name, email or phone number and there are no accounts or logins.</li>
-  <li>Your match progress and settings stay on your device.</li>
+  <li>We do not ask for your name, email or phone number, and the game has no account of its own. Everything works without signing in.</li>
+  <li>Your match progress and settings stay on your device. <strong>Only if you choose</strong> to sign in with Google Play Games, your saved games are also kept in our cloud; <strong>only if you choose</strong> to play online, the game creates an anonymous online identity for you.</li>
+  <li>You can erase your cloud data and your online data yourself, inside the game (section 10).</li>
   <li>The game shows ads (Google AdMob) to people without a subscription. The monthly "Remove ads" subscription turns ads off.</li>
   <li>Personalized ads are <strong>off</strong> until you turn them on in the game Settings.</li>
   <li>Payments are handled by Google Play. We never receive your card details.</li>
+  <li>There is no free-text chat: players talk online only through ready-made phrases.</li>
 </ul>
 
 <h2>2. Data we process</h2>
@@ -41,52 +43,73 @@
   <tr><td>Purchase token and product identifier issued by Google Play</td><td>Confirm with Google that the subscription is active and remove ads</td><td>Our server and Google Play</td></tr>
   <tr><td>Subscription state (active, canceled, grace period, on hold, paused, expired), expiry date, auto-renewal, verification dates</td><td>Know whether ads should be shown</td><td>Our server</td></tr>
   <tr><td>IP address and time of requests to our server (technical logs)</td><td>Security, abuse prevention and diagnosing faults. Kept for up to 30 days.</td><td>Our server and our hosting provider</td></tr>
+  <tr><td><strong>Only if you sign in with Google Play Games (cloud saves):</strong> your Google Play Games player ID (a code Google gives your gaming profile; we do <em>not</em> receive your name, email or picture), an internal player code we create for it, and the dates it was created and last used</td><td>Recognize you on a new phone and give you back your saved games</td><td>Our server (the sign-in itself is done by Google)</td></tr>
+  <tr><td><strong>Only if you sign in:</strong> your saved games (up to three: the state of the match, such as map, cities and units, and a short summary with the civilization, turn and date)</td><td>Keep your games in the cloud and bring them back</td><td>Our server</td></tr>
+  <tr><td><strong>Only if you play online:</strong> an anonymous online identity (a random code and a secret that only your phone keeps, of which the server stores only a one-way hash) and a nickname the game invents for you (such as "Swift Falcon 417"; nobody types a name)</td><td>Recognize you between sessions and show other players who is who</td><td>Our server and the other players in your games (they see the nickname and civilization)</td></tr>
+  <tr><td><strong>Only if you play online:</strong> the state of each online game you are in, the orders you give each turn, turn times and missed turns, and the ready-made phrases you send (there is no free text)</td><td>Run the game on the server, let other players take their turns and keep the game going when you come back</td><td>Our server and the other players in the same game</td></tr>
   <tr><td>Data collected by the Google ads SDK (AdMob), only when there is no active subscription: IP address (used to estimate general location), ad and product interactions (such as launches and taps), SDK diagnostic information, and device identifiers (Android advertising ID and app set ID)</td><td>Show ads, measure results, prevent fraud</td><td>Google</td></tr>
   <tr><td>Your privacy choices (personalized ads on/off, answer to the consent form)</td><td>Respect your choices</td><td>Your device and Google (User Messaging Platform)</td></tr>
 </table>
 <p>We do not collect precise location, contacts, photos, microphone, camera or health data.</p>
 
-<h2>3. Ads</h2>
+<h2>3. Cloud saves with Google Play Games (optional)</h2>
+<p>If you tap "Sign in with Google Play Games" in <em>Saved games</em>, Google Play Games signs you in on your phone and gives the game a one-time code. Our server trades that code with Google for your <strong>Google Play Games player ID</strong> and nothing else is kept from Google (we do not store your name, email, picture, friends or access tokens). With that ID we store up to three of your saved games so they come back on a new phone or after a reinstall. A session code that proves you are signed in is kept on your phone for up to 90 days.</p>
+<p>Signing in is never required. You can sign out at any time (your games stay on the phone and in the cloud) or <strong>erase everything we keep about you</strong> with <em>Saved games &gt; Delete my cloud data</em> (section 10). Google handles the sign-in under its own policy (<a href="https://policies.google.com/privacy">policies.google.com/privacy</a>).</p>
+
+<h2>4. Online play (optional)</h2>
+<p>When you open <em>Play online</em> for the first time, the game asks our game server for an anonymous online identity: a random code, a secret kept only on your phone (the server keeps a one-way hash of it) and a nickname invented by the game. There is no account, email or name typed by anyone. Other players in your games see your nickname and your civilization and may receive the ready-made phrases you choose to send; <strong>nothing you type is ever sent to other players</strong>.</p>
+<p>The server keeps each online game while it is being played (the state of the match, the orders sent each turn, turn times) and removes it a few minutes after it ends. If you leave a game, or miss several turns in a row, the computer takes over your civilization. You can <strong>erase your online identity and leave every game</strong> with <em>Play online &gt; Delete my online data</em> (section 10).</p>
+
+<h2>5. Ads</h2>
 <p>The game shows a banner during play and a full-screen ad before each match, served by Google AdMob. People with an active subscription see no ads and the ads SDK is not even started.</p>
 <p>Where the law requires it (for example the European Economic Area and the United Kingdom) we show Google's consent form (UMP) before any ad. You can review your choice at any time in <em>Settings &gt; Review ad consent</em>, when available, and switch <em>Personalized ads</em> on or off in the same Settings screen. Without consent we only request non-personalized ads, or no ads.</p>
 <p>You can also reset or delete your advertising ID in Android settings (Google &gt; Ads). See how Google uses data from partner apps at <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a> and Google's policy at <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
 
-<h2>4. Subscription and payments</h2>
+<h2>6. Subscription and payments</h2>
 <p>The monthly "Remove ads" subscription is billed and managed by Google Play, with the local price set in Google Play. You cancel or change it in Google Play &gt; Payments &amp; subscriptions &gt; Subscriptions. We only receive the purchase token and the subscription state, never payment details. Refunds follow Google Play's refund policy.</p>
 
-<h2>5. Legal bases (LGPD art. 7 / GDPR art. 6)</h2>
+<h2>7. Legal bases (LGPD art. 7 / GDPR art. 6)</h2>
 <ul>
   <li><strong>Performance of a contract</strong>: verifying and honoring the subscription you bought.</li>
+  <li><strong>Performance of a contract</strong> (and, where you ask for the feature, your <strong>consent</strong>): keeping your saved games in the cloud and running the online games you choose to play. You can stop at any time and erase the data.</li>
   <li><strong>Consent</strong>: personalized ads and the processing Google does for that purpose. You can withdraw consent at any time.</li>
   <li><strong>Legitimate interest</strong>: security, fraud and abuse prevention, diagnostics.</li>
   <li><strong>Legal obligation</strong>: keeping transaction records for the period the law requires.</li>
 </ul>
 
-<h2>6. Sharing and international transfers</h2>
-<p>We share data only with: Google (Google Play and AdMob); the company that hosts our server (Railway, with servers in the United States); and the storage provider that holds database backups, which are kept in private storage. Because these providers may be outside your country, your data may be transferred internationally with the safeguards required by law. We do not sell data.</p>
+<h2>8. Sharing and international transfers</h2>
+<p>We share data only with: Google (Google Play, Google Play Games and AdMob); the other players of your online games (only your invented nickname, your civilization, your turns inside the game and the ready-made phrases you send); the company that hosts our server (Railway, with servers in the United States); and the storage provider that holds database backups, which are kept in private storage. Because these providers may be outside your country, your data may be transferred internationally with the safeguards required by law. We do not sell data.</p>
 
-<h2>7. How long we keep it</h2>
+<h2>9. How long we keep it</h2>
 <ul>
   <li>Server technical logs: up to 30 days.</li>
   <li>Subscription data: while the subscription is active and afterwards for up to 5 years to meet legal obligations and settle disputes, then deleted or anonymized.</li>
+  <li>Cloud saves and your Google Play Games player ID: until you erase them in the game (<em>Saved games &gt; Delete my cloud data</em>) or ask us to.</li>
+  <li>Online identity and nickname: until you erase them in the game (<em>Play online &gt; Delete my online data</em>) or ask us to. An online game is kept while it is played and removed a few minutes after it ends.</li>
   <li>Data on your device: until you uninstall the game or clear the app data.</li>
 </ul>
 
-<h2>8. Your rights</h2>
+<h2>10. Your rights</h2>
 <p>Under the LGPD (art. 18) you may ask for: confirmation that we process your data; access; correction; anonymization, blocking or deletion; portability; information about who we share data with; information about the option not to consent and its consequences; and withdrawal of consent. Users in the EEA and the UK also have the GDPR rights (access, rectification, erasure, restriction, portability, objection) and may complain to their data protection authority.</p>
 <p>How to ask: write to <a href="mailto:hirantravassos@gmail.com">hirantravassos@gmail.com</a> with the <em>support code</em> shown in Settings &gt; Privacy (it is your anonymous installation code; without it we cannot find your data, precisely because we do not know who you are). We answer within 15 days. To <strong>delete your data</strong> use the same contact; cancel the subscription in Google Play first so it is not billed again. In Brazil you can also complain to the National Data Protection Authority (ANPD).</p>
-<p>Because the game has no accounts there is no in-app "delete account": uninstalling the game removes the data on your device, and an email request removes the data on our server.</p>
+<h3 id="delete">How to delete your data</h3>
+<ul>
+  <li><strong>In the game, without writing to anybody:</strong> <em>Saved games &gt; Delete my cloud data</em> erases your Google Play Games player ID record and your cloud saves from our server; <em>Play online &gt; Delete my online data</em> erases your online identity, removes you from every online game (the computer takes your civilization) and forgets your phone. Both ask for a second tap to confirm.</li>
+  <li><strong>By email</strong> to <a href="mailto:hirantravassos@gmail.com">hirantravassos@gmail.com</a>, with the support code from Settings &gt; Privacy: we erase what we hold for it, including the subscription data (cancel the subscription in Google Play first).</li>
+  <li>Uninstalling the game removes everything stored on your phone. It does <em>not</em> erase the cloud or online data above: erase them first.</li>
+</ul>
+<p>If you sign in with Google Play Games again after erasing, you start with an empty cloud; your Google account itself is not touched.</p>
 
-<h2>9. Children</h2>
+<h2>11. Children</h2>
 <p>Hex Dominion is not directed to children under 13 and we do not knowingly collect their data. If you believe a child gave us data, write to the contact above and we will delete it.</p>
 
-<h2>10. Security</h2>
+<h2>12. Security</h2>
 <p>The app talks to our server over HTTPS. Access to the server and database is restricted, and the subscription is always confirmed with Google on the server. No system is perfectly secure; in case of a relevant incident we will notify affected people and the authorities as the law requires.</p>
 
-<h2>11. Changes</h2>
+<h2>13. Changes</h2>
 <p>We may update this policy. The date at the top shows the latest version. Important changes will be announced in the app or on the store page.</p>
 
-<h2>12. Contact</h2>
+<h2>14. Contact</h2>
 <p>Hiran Travassos - <a href="mailto:hirantravassos@gmail.com">hirantravassos@gmail.com</a></p>
 </main>
 </body>
